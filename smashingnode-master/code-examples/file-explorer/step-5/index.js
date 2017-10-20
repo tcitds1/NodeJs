@@ -11,7 +11,7 @@ var fs = require('fs')
  * Read the current directory.
  */
 
-fs.readdir(__dirname, function (err, files) {
+fs.readdir(process.cwd(), function (err, files) {
   console.log('');
 
   if (!files.length) {
