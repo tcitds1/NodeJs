@@ -23,3 +23,4 @@ php sleep()会阻塞线程的进行， js setTimeout异步执行，事件轮询�
 window.onload 在所有元素加载完毕，图片都下载完毕之后才执行的方法
 $(document).onload 在dom树加载完毕就执行
 $(window).load 等价于 window.onload
+
